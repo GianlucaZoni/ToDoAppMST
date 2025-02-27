@@ -7,8 +7,6 @@ import { reaction } from "mobx"
 
 const Todo = types
   .model({
-    /* name: types.optional(types.string, ""),
-    done: types.optional(types.boolean, false), */
     name: types.optional(types.string, ""),
     done: types.optional(types.boolean, false),
   })
